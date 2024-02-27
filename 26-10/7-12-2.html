@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+     <input type="text" name="" id="in1"
+     <button id="btn" onclick="f1()" style="color: blue;">Submit</button>
+
+     <p id="p1">DSU</p>
+
+     <script>
+        var btn1 = document.getElementById("btn")
+        btn1.style.color = "yellow"
+
+        document.getElementById("p1").innerHTML="HAROHALLI"
+    function f1()
+    {
+        document.write("function f1 from onclick button")
+    }
+
+    document.getElementById("btn").onclick = f2()
+    document.getElementById("btn").addEventListener(click, f3()){
+        document.write("function f3 from  ")
+    }
+
+     </script>
+</body>
+</html>

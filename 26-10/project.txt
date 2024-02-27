@@ -1,0 +1,28 @@
+html code for search:
+<form id="form">
+        <input type="text" placeholder="Search" id="search" class="search" />
+      </form>
+
+js code for search:
+const SEARCH_API = `https://api.themoviedb.org/3/search/movie?api_key=${KEY}&query=`;
+const search = document.getElementById("search");
+
+css code:
+.search {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+  }
+  
+  .search::placeholder {
+    color: #7378c5;
+  }
+  
+  .search:focus {
+    outline: none;
+    background-color: var(--primary-color);
+  }

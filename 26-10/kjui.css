@@ -1,0 +1,136 @@
+<style>
+    @font-face {
+      font-family: 'Open Sans';
+      src: url(chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/fonts/OpenSans-Regular.ttf);
+    }
+
+    #BubbleLayer-0DE9E47C-871A-4F90-8440-B190C216800A {
+      background-color: #fff;
+      border: 1.5px solid red;
+      cursor: default;
+      display: flex;
+      font-family: 'Open Sans', sans-serif;
+      position: absolute;
+      visibility: hidden;
+      z-index: 2147483647;
+      outline:none;
+      line-height: 17px;
+    }
+
+    #balloon__content-0DE9E47C-871A-4F90-8440-B190C216800A {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      margin: 10px;
+    }
+    
+    #balloon__status-0DE9E47C-871A-4F90-8440-B190C216800A {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      margin: -1px;
+    }
+
+    #content__categories-0DE9E47C-871A-4F90-8440-B190C216800A > #content__cat_container {
+      color: #5d7998;
+      display: block;
+      font-size: 12px;
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    #content__categories-0DE9E47C-871A-4F90-8440-B190C216800A > #content__cat_container > #content__cat_item {
+      display: list-item;
+      list-style-type: disc;
+      padding-top: 5px;
+    }
+
+    #content__header-0DE9E47C-871A-4F90-8440-B190C216800A {
+      display: flex;
+      padding: 5px 0; 
+    }
+
+    #content__header-0DE9E47C-871A-4F90-8440-B190C216800A > #content__title {
+      color: #53565A;
+      flex-grow: 1;
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    #content__header-0DE9E47C-871A-4F90-8440-B190C216800A > img {
+      align-self: flex-start;
+      display: none;
+      height: 17px;
+      width: 50px;
+    }
+
+    #content__link-0DE9E47C-871A-4F90-8440-B190C216800A {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-top: 5px;
+      font-size: 12px;
+      text-align: right;
+    }
+
+    #content__link-0DE9E47C-871A-4F90-8440-B190C216800A > a {
+      color: #0084B6;
+      text-decoration: underline;
+      outline:none;
+    }
+
+    #content__separator-0DE9E47C-871A-4F90-8440-B190C216800A {
+      background-color: #e2e4eb;
+      height: 1px;
+      margin: 10px 0;
+    }
+
+    #content__wa_logo-0DE9E47C-871A-4F90-8440-B190C216800A {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    #content__wa_logo-0DE9E47C-871A-4F90-8440-B190C216800A > img {
+      height: 16px;
+    }
+  </style>
+  <style id="mc_style" type="text/css">.mcafee_green {
+    background-image: url(chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/annotation/green_icon.svg?secret=pcvwug);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 16px;
+    width: 16px; 
+  }
+
+.mcafee_yellow {
+    background-image: url(chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/annotation/yellow_icon.svg?secret=pcvwug);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 16px;
+    width: 16px; 
+  }
+
+.mcafee_red {
+    background-image: url(chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/annotation/red_icon.svg?secret=pcvwug);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 16px;
+    width: 16px; 
+  }
+
+.mcafee_grey {
+    background-image: url(chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/annotation/grey_icon.svg?secret=pcvwug);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 16px;
+    width: 16px; 
+  }
+
+</style>

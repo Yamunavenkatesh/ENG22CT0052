@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Flex</title>
+   <style>
+    .container{
+        display:flex;
+        flex-wrap:nowrap;
+    }
+    .box1,.box3{
+        background-color: blue;
+        flex-grow: 1;
+        /* flex-shrink: 2; */
+    }
+    .box2,.box4{
+        background-color: deeppink;
+        flex-grow: 5;
+        /* flex-shrink: 4;*/
+    }  
+   </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box1">Home: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum corrupti impedit tempora nisi quibusdam expedita, voluptas et quidem minima laborum in porro rem. Laboriosam iure voluptatibus laudantium tempore repellendus beatae.</div>
+    <div class="box2">About: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus dolores, impedit in, laborum voluptas quaerat nisi quo corrupti animi vero tempore velit facere perspiciatis optio commodi odio possimus. Labore, deleniti?</div>
+    <div class="box3">Contact: Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ut iure similique expedita ullam, cum repellendus nesciunt non est, perferendis nemo assumenda nisi dolores repudiandae nam minima omnis mollitia labore.</div>
+    <div class="box4">More: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, ab suscipit, ad adipisci placeat ullam excepturi nostrum quae, non aliquid sapiente est libero doloremque corporis a natus velit nihil eveniet. </div>
+    </div>
+</body>
+</html>

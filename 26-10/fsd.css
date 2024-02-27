@@ -1,0 +1,13 @@
+#outer{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#inner{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
